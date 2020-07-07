@@ -6,6 +6,6 @@ Type = Package
 Target = *
 
 [Action]
-Description = Removing unnecessary cached files (keeping the latest two)...
+Description = Removing cached files of uninstalled packages...
 When = PostTransaction
-Exec = /usr/bin/paccache -rvk2
+Exec = /usr/bin/paccache -rvuk0

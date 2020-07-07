@@ -1,11 +1,13 @@
 pkgbase = pacman-cleanup-hook
-	pkgdesc = Pacman hook to cleanup pacman cache, keeps only the latest cache and the currently installed package. No configuration necessary, just install it.
+	pkgdesc = Pacman hook to cleanup pacman cache, keeping only the latest cache and the currently installed package.
 	pkgver = 1.0
-	pkgrel = 7
+	pkgrel = 8
 	arch = any
 	depends = pacman-contrib
 	source = cleanup.hook
-	sha256sums = 235d6743e8d91bec5ab911a12e061be417f2d179edbc8423fe628fdbfec6876a
+	source = remove-uninstalled.hook
+	sha256sums = 52c6bcbdc0acf7dab8c4a5f1c1e60589d30d1b244016562431b53e7710c5784a
+	sha256sums = 00d2bcb94c65049b5753c1340c09a9a03869793de97400a222adb203f374d97f
 
 pkgname = pacman-cleanup-hook
 
